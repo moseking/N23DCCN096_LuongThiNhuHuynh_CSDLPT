@@ -1,0 +1,36 @@
+# Python cache / virtual environments
+__pycache__/
+*.pyc
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local datasets and archives
+data/
+*.zip
+*.rar
+*.7z
+*.gz
+
+# Detailed/generated result caches
+results/*
+results/experiments/
+results/legacy*/
+results/synthetic/
+results/snap_web_stanford*/
+
+# Keep compact grading summaries
+!results/
+!results/experiment_summary.csv
+!results/experiment_summary.json
+
+# Local prep notes, not needed in public GitHub repo
+VIDEO_SCRIPT_3_5_MIN.md
+SUBMISSION_CHECKLIST.md
+defense_notes.md
