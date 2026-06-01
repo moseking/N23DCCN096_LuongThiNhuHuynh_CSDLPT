@@ -11,14 +11,14 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Local datasets and archives
-data/
+# Local large datasets and archives
+data/*.gz
+data/raw/
 *.zip
 *.rar
 *.7z
-*.gz
 
-# Detailed/generated result caches
+# Ignore detailed/generated result caches
 results/*
 results/experiments/
 results/legacy*/
@@ -29,12 +29,8 @@ results/snap_web_stanford*/
 !results/
 !results/experiment_summary.csv
 !results/experiment_summary.json
+!results/top_pages_with_metadata.csv
 
-# Local prep notes, not needed in public GitHub repo
-VIDEO_SCRIPT_3_5_MIN.md
-SUBMISSION_CHECKLIST.md
-defense_notes.md
-BAO_CAO_DO_AN.md
-ANALYSIS_OZSU_VALDURIEZ.md
-DESIGN_DOCUMENT_2_PAGE.md
-PROJECT_PROPOSAL.md
+# Keep small sample metadata for multi-model integration
+!data/
+!data/page_metadata_sample.csv

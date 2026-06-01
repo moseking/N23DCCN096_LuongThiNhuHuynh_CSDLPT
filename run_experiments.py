@@ -132,7 +132,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--partition-strategies",
         nargs="+",
         choices=["range", "hash", "random", "degree_aware"],
-        default=["random", "hash", "degree_aware"],
+        default=["range", "random", "hash", "degree_aware"],
     )
     parser.add_argument("--partition-seed", type=int)
     return parser

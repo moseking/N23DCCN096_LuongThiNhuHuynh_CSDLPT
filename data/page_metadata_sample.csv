@@ -1,0 +1,11 @@
+page_id,domain,page_type,partition_hint
+89072,stanford.edu,department_page,high_authority
+38341,stanford.edu,course_page,education
+68888,stanford.edu,research_page,research
+18545,stanford.edu,administration_page,administration
+13238,stanford.edu,faculty_page,people
+81434,stanford.edu,library_page,resource
+95162,stanford.edu,news_page,news
+28599,stanford.edu,project_page,research
+69357,stanford.edu,department_page,high_authority
+67755,stanford.edu,student_service_page,service

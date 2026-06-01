@@ -1,0 +1,11 @@
+page_id,rank,domain,page_type,partition_hint
+89072,0.01583785537493391,stanford.edu,department_page,high_authority
+38341,0.008676321918048258,stanford.edu,course_page,education
+68888,0.008440862313673364,stanford.edu,research_page,research
+18545,0.007191681598803253,stanford.edu,administration_page,administration
+13238,0.006839503509712607,stanford.edu,faculty_page,people
+81434,0.006075702298424736,stanford.edu,library_page,resource
+95162,0.005855373023594982,stanford.edu,news_page,news
+28599,0.005819395722520636,stanford.edu,project_page,research
+69357,0.005480393728442305,stanford.edu,department_page,high_authority
+67755,0.00541284547254084,stanford.edu,student_service_page,service
